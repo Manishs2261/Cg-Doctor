@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CGDoctors"
+        tools:targetApi="31">
+        <activity
+            android:name=".ReportNow"
+            android:exported="false" />
+        <activity
+            android:name=".Rating_Now"
+            android:exported="false" />
+        <activity
+            android:name=".Hos_Location"
+            android:exported="false" />
+        <activity
+            android:name=".Share_pro"
+            android:exported="false" />
+        <activity
+            android:name=".CallNow"
+            android:exported="false" />
+        <activity
+            android:name=".My_locationn"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|adjustPan"/>
+        <activity
+            android:name=".BookAppoiment"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|adjustPan"/>
+        <activity
+            android:name=".CurrentLocation"
+            android:exported="false" />
+        <activity
+            android:name=".LogoutUser"
+            android:exported="false" />
+        <activity
+            android:name=".Notification"
+            android:exported="false" />
+        <activity
+            android:name=".DrProfile"
+            android:exported="false" />
+        <activity
+            android:name=".TermAndCondition"
+            android:exported="false" />
+        <activity
+            android:name=".AppFeedbackk"
+            android:exported="false" />
+        <activity
+            android:name=".Helpp"
+            android:exported="false" />
+        <activity
+            android:name=".SettingS"
+            android:exported="false" />
+        <activity
+            android:name=".LoginDr"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterDr"
+            android:exported="false" />
+        <activity
+            android:name=".MyAppoitment"
+            android:exported="false" />
+        <activity
+            android:name=".MyTransition"
+            android:exported="false" />
+        <activity
+            android:name=".EditUser"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterUser"
+            android:exported="false" />
+        <activity
+            android:name=".UserEdit"
+            android:exported="false" />
+        <activity
+            android:name=".DrList"
+            android:exported="false" />
+        <activity
+            android:name=".MainManu"
+            android:exported="false" />
+        <activity
+            android:name=".manu"
+            android:exported="false" />
+        <activity
+            android:name=".ManuHome"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name=".splase_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CG Doctors</string>
+    <string name="Nose_e">english</string>
+    <string name="Nose_h">hindi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hindi">हिंदी टू इंग्लिश</string>
+
+</resources>
